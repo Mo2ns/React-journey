@@ -5,6 +5,8 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #282D35;
+    color: #fff;
 }
 
 header {
@@ -28,4 +30,29 @@ nav > h1{
   color: #61DAFB;
   font-size: 1.3rem;
   font-weight: 700;
+}
+
+main {
+  padding: 60px 30px;
+}
+
+main > h1 {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.facts-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list > li {
+  margin-block: 10px;
+  font-size: 1.1rem;
+  line-height: 19px;
+}
+
+.facts-list > li::marker{
+  color: #61DAFB;
+  font-size: 1.5rem;
 }
