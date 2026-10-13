@@ -22,6 +22,15 @@ function App() {
           date = "5 Feb, 2021 - 10 Feb, 2021"
           text = "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower."
         />
+        <Entry 
+          img = "../images/Petra.jpg"
+          location = "Jordan"
+          link = "https://www.google.com/maps/place/Petra/@30.328512,35.405964,15z/data=!3m1!4b1!4m6!3m5!1s0x15978a0e8c9d8d8d:0x1a0a0a0a0a0a0a0!8m2!3d30.328512!4d35.405964!16zL20vMGNrczA?entry=ttu"
+          title = "Petra"
+          date = "15 Mar, 2021 - 20 Mar, 2021"
+          text = "Petra is a historical city in southern Jordan, known for its rock-cut architecture and ancient ruins."
+        />  
+        
       </div>
     </>
   )
